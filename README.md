@@ -8,5 +8,8 @@ Das Skript muss ausführbar gemacht werden mit `chmod +x /pfad/zum/deinem/bashsk
 ### 2 Crontab öffnen
 Mit `crontab -e` kommt man in die Cronjobübersicht. 
 ### 3 Cronjob hinzufügen
-Einfach unter dem riesigen Kommentar folgendes schreiben: `0 4 * * * /pfad/zum/deinem/bashskript/dailyIntenseMachinery.sh` (Der Pfad muss angepasst werden).
+Einfach unter dem riesigen Kommentar folgendes schreiben: \
+`0 4 * * * /pfad/zum/deinem/bashskript/dailyIntenseMachinery.sh` \
+(Der Pfad muss angepasst werden).
+
 Die `0 4 * * *` steht für "4 Uhr morgens jeden Tag". Wenn das Skript wann anders ausgeführt werden soll passe dementsprechend die Zeiten an.
